@@ -1,0 +1,24 @@
+# Bài 1 : Tìm kiếm tài liệu học tập chính thống bằng google 
+* Vấn đề : Bạn đang tìm kiếm giáo trình NMCNTT bản PDF của học viện để ôn thi, nhưng google trả về các trang web bắt nạp thẻ hoặc quảng cáo bài viết khoong liên quan
+* Yêu cầu :
+1.1 Mô tả tại sao việc dùng toán tử filetype: lại giúp tiết kiệm thời gian hơn so với việc "tải sách..." thông thường.
+1.2 Ảnh chụp màn hình 3 kết quả đầu tiên sau khi áp dụng "combo toán tử"
+* GIải quyết bài toán
+1.1 
+-Dùng toán tử filetype giúp tiết kiệm thời gian hơn bởi vì: Giúp chúng ta lọc các định dạng file khác ,chỉ trả về file duy nhất được yêu cầu
+Tránh các trang web "rác", mã độc và quảng cáo: Các từ khóa "tải miễn phí", "download ebook" thường bị lợi dụng bởi các trang web SEO bẩn chứa mã độc, link rút gọn độc hại, hoặc yêu cầu nạp thẻ cào điện thoại. Khi kết hợp filetype: với toán tử site: (giới hạn tên miền chính thống của trường học hoặc cơ quan uy tín) và toán tử trừ - (loại bỏ các trang rác), kết quả trả về sẽ sạch và an toàn tuyệt đối.
+
+Tăng độ chính xác của truy vấn: Thay vì quét hàng triệu bài viết giới thiệu sách rườm rà, công cụ tìm kiếm sẽ thu hẹp phạm vi vào các tệp tài liệu lưu trữ trên máy chủ, giúp bạn thấy ngay tài liệu chuẩn xác chỉ sau một lần tìm kiếm.
+1.2 
+- "Nhập môn Công nghệ thông tin" filetype:pdf site:edu.vn -quangcao -napthe
+1.3 
+- "Nhập môn Công nghệ Thông tin": Tìm chính xác cụm từ khóa tiêu đề sách.
+
+filetype:pdf: Chỉ lọc ra các tệp PDF, đi thẳng đến file tài liệu gốc.
+
+site:edu.vn: Giới hạn tìm kiếm trong các trang web giáo dục uy tín.
+
+-scribd -studocu: Loại bỏ các trang tài liệu rác, yêu cầu trả phí hoặc nạp thẻ.
+1.4 loại bỏ ít nhất 2 trang web rác 
+- -quangcao
+- -napthe
